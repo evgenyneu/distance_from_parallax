@@ -5,6 +5,8 @@ measurements are uncertain or negative, which is true for most stars in Gaia's D
 
 This is a recreation of Figure 3 in [Luri X et. al (2018)](https://arxiv.org/abs/1804.09376).
 
+![Distances from simulated parallaxes](measured_distances.png)
+
 
 ## Setup
 
