@@ -20,6 +20,12 @@ Use the following steps to install Python environment and run the code.
 git clone https://github.com/evgenyneu/distance_from_parallax.git
 ```
 
+* Change current directory:
+
+```
+cd distance_from_parallax
+```
+
 * Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
 
 * Create a Conda environment.
