@@ -1,11 +1,13 @@
 # Calculating distances from uncertain parallax measurements
 
-This is a Python program that plots measured stellar distances from simulated parallaxes. The plot demonstrates that one can not just use the standard distance = 1/parallax formula when parallax
+This is a Python program that plots (Fig. 1) stellar distances from simulated parallaxes. The plot demonstrates that one can not just use the standard distance = 1/parallax formula when parallax
 measurements are uncertain or negative, which is true for most stars in Gaia's DR2 catalog. Instead, the parallaxes need to be inferred using statistical inference.
 
 This is a recreation of Figure 3 in [Luri X et. al (2018)](https://arxiv.org/abs/1804.09376).
 
 ![Distances from simulated parallaxes](measured_distances.png)
+
+Figure 1: Probability density of distance r, calculated from r = 1/p, shown with solid blue line, where p is simulated parallax. The dashed red line is the true simulated distance. Left: fractional parallax measurement uncertainty f(p) = σ(p)/π = 0.03. Right: f(p) = 0.6.
 
 
 ## Setup
