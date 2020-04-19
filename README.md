@@ -40,7 +40,7 @@ conda create --name parallax42 python=3.7
 conda activate parallax42
 ```
 
-* Install Python libraries listed in `requirements.txt` file:
+* Install Python libraries listed in [requirements.txt](requirements.txt) file:
 
 ```
 pip install -r requirements.txt
