@@ -1,5 +1,6 @@
 """
-Plot measured stellar distances from simulated parallaxes.
+This is a Python program that plots stellar distances from
+simulated parallaxes that have measurement uncertainties.
 """
 
 from scipy import stats
