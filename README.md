@@ -10,10 +10,10 @@ This is a recreation of Figure 3 in [Luri X et. al (2018)](https://arxiv.org/abs
 
 Use the following steps to install Python environment and run the code.
 
-* Extract the code.zip file into a directory and change the directory:
+* Download the code:
 
 ```
-cd code
+git clone https://github.com/evgenyneu/distance_from_parallax.git
 ```
 
 * Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
@@ -21,13 +21,13 @@ cd code
 * Create a Conda environment.
 
 ```
-conda create --name asp3231assignment1 python=3.7
+conda create --name parallax42 python=3.7
 ```
 
 * Activate the environment:
 
 ```
-conda activate asp3231assignment1
+conda activate parallax42
 ```
 
 * Install Python libraries listed in `requirements.txt` file:
@@ -36,20 +36,22 @@ conda activate asp3231assignment1
 pip install -r requirements.txt
 ```
 
-* Finally, run Jupyter and open the `q3.ipynb` notebook:
+## Running the program
 
 ```
-jupyter notebook q3.ipynb
+python parallax.py
 ```
+
+The program will create [measured_distances.pdf](measured_distances.pdf) plot.
 
 
 ## Cleaning up
 
-When you finished running the code, stop Jupyter with <Ctrl-C> and remove the Conda environment:
+When you finished running the code, remove the Conda environment:
 
 ```
 conda deactivate
-conda env remove -n asp3231assignment1
+conda env remove -n parallax42
 ```
 
 ## License
