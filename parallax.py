@@ -38,7 +38,8 @@ def plot_distance(ax, distance, f, samples, xlim, bins=40):
     parallax_std_deviation = f * parallax
 
     # Draw random samples from normal distributions around 'true' parallax
-    # using measurement uncertainty as stndard deviation
+    # using measurement uncertainty as standard deviation.
+    # Here we assume the measurement uncertainties arenormally distributed.
     parallax_measured = stats.norm.rvs(loc=parallax,
                                        scale=parallax_std_deviation,
                                        size=samples)
