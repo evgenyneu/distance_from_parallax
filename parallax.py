@@ -88,6 +88,7 @@ def make_plot(file_name):
         Name of plot file that will be created.
     """
 
+    plt.rcParams["font.family"] = "serif"
     fig, axs = plt.subplots(1, 2, sharey=False, figsize=[6, 3])
 
     plot_distance(ax=axs[0], distance=100, f=0.03, samples=100000,
